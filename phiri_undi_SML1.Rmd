@@ -1,5 +1,5 @@
 ---
-title: (AUBREY UNDI PHIRI) Statistical Machine Learning (ASSIGNMENT 2)
+title: (AUBREY UNDI PHIRI) Statistical Machine Learning 
 output:
   pdf_document: 
     fig_caption: true
@@ -911,6 +911,7 @@ The graph compares the test errors of four different learning algorithms: FLD (F
 4. **QDA**: QDA has a moderate median test error, lower than Naive Bayes but higher than both FLD and LDA. Its distribution is slightly spread out with some variability, but it has a smaller range compared to Naive Bayes. There is one notable outlier at the lower end, indicating one instance with significantly lower test error.
 
 **Overall Observation**: FLD and LDA have the most consistent performance with low error rates, making them preferable for tasks requiring reliability. Naive Bayes, while being a probabilistic model, seems to perform poorly with high variability, possibly due to assumptions that do not fit the dataset. QDA provides a balance between error rate and variability but has some inconsistencies, as indicated by the outlier.
+
 
 
 
